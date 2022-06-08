@@ -4,7 +4,7 @@ A foundational overview of a tool frequently employed by data scientists to anal
 
 ## Overview of Project
 
-Analyze crowdfunding campaign data set to advise client "Louise" regarding her prospective play called Fever.
+Analyze crowdfunding campaign data set to advise client "Louise" regarding her prospective play called Fever. Knowledge needed includes understanding of data organized in table format in order to filter, group, summarize, and apply advanced formulas in the creation of pivot tables and associated charts, which will help to identify trends and patterns in the data set.
 
 ### Purpose
 
@@ -58,14 +58,15 @@ As well, some of the data (e.g. the "deadline" and "launched_at" fields) was not
 
 - What can you conclude about the Outcomes based on Goals?
 
-Going towards the two goal groupings smaller (5000 to 9999, 1000 to 4999) rather than either staying at her current goal range (10000 to 14999) or going into the next two higher groupings (15000 to 19999, 20000 to 24000), would be advisable as *Louise would be more likely to have a successful smaller campaign*.
+Going towards the two goal groupings smaller (5000 to 9999, 1000 to 4999) rather than either staying at her current goal range (10000 to 14999) or going into the next two higher groupings (15000 to 19999, 20000 to 24000), would be advisable as *Louise would be more likely to have a successful smaller campaign*. This advice is strengthened by a review of the five "Edinburgh Fringe" festival plays aligned with Louise' interests (Fever may be a similar production), which review revealed that the five were successful campaigns ranging between 1000 and 4000 (underlying data for this spotlight is on the "Edinburgh Research" sheet of the workbook). 
 
 - What are some limitations of this dataset?
 
 /1/ Gaps exist (sparse data) for the category, especially the first four years (2010-2013): no data in 2009; in 2010 only July, October, December (one campaign each); in 2011 March (1 campaign), April (1), December (2); ...
 /2/ Need more recent data: no data since year 2017.
-/3/ Could have more data for each of the nine parent categories (film & video, food, games, journalism, music, photography, publishing, technology, theater)
+/3/ Could have more data for each of the nine parent categories (film & video, food, games, journalism, music, photography, publishing, technology, theater).
+/4/ Different country monetary funding values were not converted to a uniform base currency.
 
 - What are some other possible tables and/or graphs that we could create?
 
-One possibility for a pivot table with associated graph could be the percentage makeup/contribution of outcomes for each category and/or subcategory. This would help to visualize strengths of the data set where a study/analysis might be made.
+One possibility for a pivot table with associated graph could be the percentage makeup/contribution of outcomes for each category and/or subcategory. This would help to visualize strengths of the data set where a study/analysis might be made. And in light of data limitation #4 above, either filtering for individual country, or performing a common currency conversion might be undertaken before revisiting the analysis grouping (that grouped) the (funding) size of the campaigns.
