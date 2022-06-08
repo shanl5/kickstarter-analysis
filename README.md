@@ -17,6 +17,11 @@ Depending on particular views into the available data, the recommendation to Lou
 Theater funding has been historically successful in Great Britain<sup>A</sup> -- the data shows nearly 72% (258 of 359) of category campaigns there have been successful (achieved goal or better), but the success rate drops below 60% (515 of 900) if data is considered for category campaigns completed (or canceled) in the US<sup>B</sup>. Yet, if only plays are considered (the theater category includes building space campaigns, a subcategory not applicable to Fever which is to be a play), the subcategory<sup>C</sup> {*in US*}<sup>D</sup> success rate is over 65% (694 of 1066) {*over 61% (412 of 671)*}.
 
 <sup>A,B,C,D</sup> Screenshots in resources.
+<!--
+Found solution to resize image using html in this .md as follows ...
+![image](https://user-images.githubusercontent.com/106628649/172514109-ad3d1892-cc50-45a9-9214-b07124863a97.png)
+from https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown 
+-->
 Chart A:
 <img src="/resources/Screenshot_2022-06-07_175342_Outcomes-in-Great-Britain-by-Category.png" width="40%">
 Chart B: ![](/resources/Screenshot_2022-06-07_175840_Category-Outcomes-in-US.png)
