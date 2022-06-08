@@ -17,16 +17,25 @@ Depending on particular views into the available data, the recommendation to Lou
 Theater funding has been historically successful in Great Britain<sup>A</sup> -- the data shows nearly 72% (258 of 359) of category campaigns there have been successful (achieved goal or better), but the success rate drops below 60% (515 of 900) if data is considered for category campaigns completed (or canceled) in the US<sup>B</sup>. Yet, if only plays are considered (the theater category includes building space campaigns, a subcategory not applicable to Fever which is to be a play), the subcategory<sup>C</sup> {*in US*}<sup>D</sup> success rate is over 65% (694 of 1066) {*over 61% (412 of 671)*}.
 
 <sup>A,B,C,D</sup> Screenshots in resources.
+Chart A:
+<img src="/resources/Screenshot_2022-06-07_175342_Outcomes-in-Great-Britain-by-Category.png" width="40%">
+Chart B: ![](/resources/Screenshot_2022-06-07_175840_Category-Outcomes-in-US.png)
+Chart C: <img src="/resources/Screenshot_2022-06-07_180934_All-Country-Outcomes_table-and-chart.png" width="40%">
+Chart D: <img src="/resources/Screenshot_2022-06-07_182050-US_subOutcomes_table-and-chart.png" width="40%">
+
 
 ### Analysis of Outcomes Based on Launch Date
 
-![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/106628649/172477482-f2059ac2-d696-4e22-be0f-f52c1e57df51.png)
+<!-- ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/106628649/172477482-f2059ac2-d696-4e22-be0f-f52c1e57df51.png) -->
+![Theater_Outcomes_vs_Launch](/resources/Theater_Outcomes_vs_Launch.png)
 
 Reviewing past theater campaigns on the basis of monthly launch timing alone, the recommendation might be to launch a campaign, in any month except December, in which month the number of successful campaigns (37) only barely passes those that failed (35) and is less than half the total (75) launched then. The recommendation to proceed in the other months, however, while especially strong if the campaign is to be launched in the month of May or even June -- where the number of successful campaigns (111 and 100, respectively) about doubles those failed (52 and 49) -- becomes certainly weaker in other months, notably in October, August and January (65, 72, and 56 successful, respectively) -- where more than 40% of the closed theater campaigns failed or were canceled (50+0, 47+4, 33+7). If Louise is to launch a campaign those latter months, the project suggests she may want to devise a special incentive to contributors.
 
+
 ### Analysis of Outcomes Based on Goals
 
-![Outcomes_vs_Goals](https://user-images.githubusercontent.com/106628649/172477611-d847b5e4-d195-46ba-ac66-ee38b42350f8.png)
+<!-- ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/106628649/172477611-d847b5e4-d195-46ba-ac66-ee38b42350f8.png) -->
+![Outcomes_vs_Goals](/resources/Outcomes_vs_Goals.png)
 
 If the campaign data for the subcategory of plays is set into 12 different groups by size of goal, Louise' campaign of interest (just over $10K) falls into a group where the successful campaigns (39) outnumber failed ones (33) based on the historical data. However, this is only a slim success margin, and going to the next larger-size campaign grouping from there the trend goes downward for success and upward for failure (successful and failed play campaigns both number 12 in the next higher grouping of 15000 to 19999).
 
@@ -39,8 +48,8 @@ As well, some of the data (e.g. the "deadline" and "launched_at" fields) was not
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-(1) No matter the month launched, a theater crowdfunding campaign can be successful and over the total range of the data (2010-2017) more total have succeeded than failed;
-(2) A December campaign launch appears the least likely to be successful of the months.
+/1/ No matter the month launched, a theater crowdfunding campaign can be successful and over the total range of the data (2010-2017) more total have succeeded than failed;
+/2/ A December campaign launch appears the least likely to be successful of the months.
 
 - What can you conclude about the Outcomes based on Goals?
 
@@ -48,9 +57,9 @@ Going towards the two goal groupings smaller (5000 to 9999, 1000 to 4999) rather
 
 - What are some limitations of this dataset?
 
-(1) Gaps exist (sparse data) for the category, especially the first four years (2010-2013): no data in 2009; in 2010 only July, October, December (one campaign each); in 2011 March (1 campaign), April (1), December (2); ...
-(2) Need more recent data: no data since year 2017.
-(3) Could have more data for each of the nine parent categories (film & video, food, games, journalism, music, photography, publishing, technology, theater)
+/1/ Gaps exist (sparse data) for the category, especially the first four years (2010-2013): no data in 2009; in 2010 only July, October, December (one campaign each); in 2011 March (1 campaign), April (1), December (2); ...
+/2/ Need more recent data: no data since year 2017.
+/3/ Could have more data for each of the nine parent categories (film & video, food, games, journalism, music, photography, publishing, technology, theater)
 
 - What are some other possible tables and/or graphs that we could create?
 
